@@ -21,6 +21,7 @@ img {
     margin-bottom: 10px;
 }
 
+
 .recipe-cards {
     display: flex;
     flex-wrap: wrap;
@@ -97,12 +98,18 @@ a:hover {
     border-radius: 10px;
     margin-top: -1px;
     border: solid #cecece 5px;
-    color: rgb(122, 122, 122);
+    color: #b84242;
     font-weight: 600;
 }
 
 .more {
-    background-color: #98c1ff;
+    background-color: #202020;
+    color: azure;
+}
+
+.more:hover {
+    background-color: #b84242;
+    color: azure;
 }
 
 h1 {
