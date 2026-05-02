@@ -1,14 +1,14 @@
 body {
     font-family: "courier new";
     font-weight: normal;
-    font-size: small;
+    font-size: 15px;
 
     margin: 50px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #98c1ff;
+    background-color: #b4a380;
     text-align: center;
 }
 
@@ -16,13 +16,9 @@ img {
     width: 220px;
     height: 220px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 10%;
     border: solid rgb(27, 27, 27) 2px;
-    margin-bottom: 20px;
-}
-
-img:hover {
-    border-color: #f3f588;
+    margin-bottom: 10px;
 }
 
 .recipe-cards {
@@ -30,7 +26,7 @@ img:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 10px;
+    gap: 0px;
     padding-left: 0px;
 }
 
@@ -50,7 +46,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: #202020;
+    color: #f3f588;
     font-size: xxx-large;
 }
 
@@ -59,6 +55,7 @@ h2 {
     text-align: center;
     justify-content: center;
     text-decoration: underline;
+    color: #202020;
 }
 
 header {
@@ -87,6 +84,7 @@ a {
 a:hover {
     background-color: #202020;
     color: azure;
+    color: #f3f588;
 }
 
 .coming {
@@ -103,11 +101,15 @@ a:hover {
 }
 
 .more {
-    background-color: azure;
+    background-color: #98c1ff;
 }
+
+
+
+
 
 @media screen and (max-width: 460px) {
     h1 {
-        font-size: xx-large;
+        font-size: 40px;
     }
 }
