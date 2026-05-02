@@ -3,7 +3,7 @@ body {
     font-weight: normal;
     font-style: light;
 
-    margin: 100px;
+    margin: 50px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@ img {
     gap: 12px;
     margin: 20px;
     margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 
