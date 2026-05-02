@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c9b691;
+    background-color: #e4dcd0;
     text-align: center;
 }
 
@@ -16,8 +16,8 @@ img {
     width: 220px;
     height: 220px;
     object-fit: cover;
-    border-radius: 10%;
-    border: solid rgb(27, 27, 27) 2px;
+    border-radius: 100%;
+    border: solid #202020 10px;
     margin-bottom: 10px;
 }
 
@@ -73,7 +73,7 @@ a {
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 10px;
-    border: solid black 3px;
+    border: solid #202020 5px;
     background-color: #f3f588;
     width: 226px;
     text-align: center;
@@ -85,6 +85,7 @@ a:hover {
     background-color: #202020;
     color: azure;
     color: #b9e474;
+    
 }
 
 .coming {
@@ -95,7 +96,7 @@ a:hover {
     background-color: rgb(230, 224, 224);
     border-radius: 10px;
     margin-top: -1px;
-    border: solid rgb(206, 206, 206) 1px;
+    border: solid #cecece 5px;
     color: rgb(122, 122, 122);
     font-weight: 600;
 }
